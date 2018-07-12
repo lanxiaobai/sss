@@ -1,0 +1,6 @@
+{{if user}}
+  <h2>{{user.name}}</h2>
+{{/if}}
+{{each friend}}
+    <h3>{{$value.name}}  {{$value.skill}}</h3>
+{{/each}}
